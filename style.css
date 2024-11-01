@@ -1,0 +1,77 @@
+.main-body {
+    background-image: url("https://wallpapercave.com/wp/wp2508307.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+@font-face {
+    font-family:"Quicksand";
+    src: url("font/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family:"honey";
+    src: url("font/HoneyScript-Light.ttf");
+}
+
+@font-face {
+  font-family:"Qelistah";
+  src: url("font/Qelistah.otf");
+}
+
+@font-face {
+  font-family:"Significant";
+  src: url("font/Significant.otf");
+}
+
+
+
+*{font-family:"Quicksand";
+font-size: 14px;}
+
+.title01{
+    font-family:honey;
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.nav1{
+    font-family:Qelistah;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.background{
+    background-image: url("resourses/background.png");
+background-position: center;
+background-size:contain ;
+background-repeat: no-repeat;
+}
+
+.title02{
+    font-size: 25px;
+    font-weight: bold;
+    font-family:"Quicksand";
+}
+
+.adminBody{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    
+}
+
+.caro{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    width: 50%;
+    color: rgb(32, 31, 31);
+    
+}
